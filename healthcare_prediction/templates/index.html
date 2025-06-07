@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h2>Diabetes Prediction Form</h2>
+    <form action="/predict" method="post">
+        <label>Pregnancies:</label>
+        <input type="text" name="pregnancies"><br><br>
+
+        <label>Glucose:</label>
+        <input type="text" name="glucose"><br><br>
+
+        <label>Blood Pressure:</label>
+        <input type="text" name="bloodpressure"><br><br>
+
+        <label>Skin Thickness:</label>
+        <input type="text" name="skinthickness"><br><br>
+
+        <label>Insulin:</label>
+        <input type="text" name="insulin"><br><br>
+
+        <label>BMI:</label>
+        <input type="text" name="bmi"><br><br>
+
+        <label>Diabetes Pedigree Function:</label>
+        <input type="text" name="dpf"><br><br>
+
+        <label>Age:</label>
+        <input type="text" name="age"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+
+    <br><br>
+    <a href="/powerbi">View Power BI Dashboard</a>
+</body>
+</html>
