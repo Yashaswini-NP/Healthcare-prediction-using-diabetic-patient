@@ -66,11 +66,6 @@ An interactive dashboard was created to visualize key insights:
 
 ---
 
-## 📸 Dashboard Preview
-(Add your Power BI screenshot here)
-
----
-
 ## 📚 Conclusion
 This project demonstrates how machine learning and data visualization can be used together for healthcare analytics and early disease prediction.
 
